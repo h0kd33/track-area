@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+	<link rel="import" href="../bower_components/iron-flex-layout/classes/iron-flex-layout.html">
+    <link rel="import" href="track-area.html">
+</head>
+
+<body class="fullbleed">
+    <div id="container" class="layout vertical fit">
+        <track-area id="area1" class="flex"></track-area>
+        <div class="layout horizontal flex">
+            <track-area id="area2" class="flex"></track-area>
+            <div class="layout vertical flex">
+            	<track-area id="area3" class="flex"></track-area>
+            	<track-area id="area4" class="flex"></track-area>
+            	<track-area id="area6" class="flex"></track-area>
+            </div>
+            <track-area id="area7" class="flex"></track-area>
+        </div>
+        <track-area id="area8" class="flex"></track-area>
+    </div>
+</body>
+
+</html>
